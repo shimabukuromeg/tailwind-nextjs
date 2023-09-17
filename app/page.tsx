@@ -13,6 +13,8 @@ export default function Home() {
       <div className="text-green">こちらはgreenカラーの背景を持ったdiv要素です</div>
       <div className="text-green-500">こちらはgreenカラーの背景を持ったdiv要素です</div>
       <div className="text-blue-500">こちらはgreenカラーの背景を持ったdiv要素です</div>
+      <div className="text-black-500 font-normal">こちらはgreenカラーの背景を持ったdiv要素です</div>
+      <div className="text-black-500 font-bold">こちらはgreenカラーの背景を持ったdiv要素です</div>
     </main>
   )
 }

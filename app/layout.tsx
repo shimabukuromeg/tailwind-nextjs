@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import { Noto_Sans_JP } from "next/font/google"
+import { cn } from "@/lib/utils"
+const noto = Noto_Sans_JP({ weight: ['400', '700'], subsets: ['latin'], variable: '--font-noto' });
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -14,9 +14,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  console.log('cn("font-sans", noto.variable)', cn("font-sans", noto.variable))
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={cn("font-sans", noto.variable)}>{children}</body>
     </html>
   )
 }
