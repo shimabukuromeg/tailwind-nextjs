@@ -31,6 +31,9 @@ export default function Home() {
         <Typography variant="m">あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。</Typography>
         <Typography variant="l">あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。</Typography>
       </div>
+      <div className="bg-red-100 mt-8 sm:bg-blue-100 md:bg-green">
+        このテキストは、mdブレークポイントで緑色の背景になります。
+      </div>
     </main>
   )
 }
