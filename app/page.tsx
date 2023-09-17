@@ -6,9 +6,13 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between p-24">
       <div>hello</div>
-      <div className="pt-24">
+      <div className="p-24">
         <Button>Click me</Button>
       </div>
+      <div className="bg-green">こちらはgreenカラーの背景を持ったdiv要素です</div>
+      <div className="text-green">こちらはgreenカラーの背景を持ったdiv要素です</div>
+      <div className="text-green-500">こちらはgreenカラーの背景を持ったdiv要素です</div>
+      <div className="text-blue-500">こちらはgreenカラーの背景を持ったdiv要素です</div>
     </main>
   )
 }
