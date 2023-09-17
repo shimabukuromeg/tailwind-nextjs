@@ -1,3 +1,4 @@
+import { Typography } from "@/components/ui/Typography"
 import { Button } from "@/components/ui/button"
 const defaultTheme = require('tailwindcss/defaultTheme')
 
@@ -25,6 +26,11 @@ export default function Home() {
       <div className="text-xxl">こちらはgreenカラーの背景を持ったdiv要素です</div>
       <div className="text-xxxl">こちらはgreenカラーの背景を持ったdiv要素です</div>
       <div className="text-xxxxl">こちらは Hamburger カラーの背景を持ったdiv要素です</div>
+      <div className="w-[750px] pt-5">
+        <Typography variant="s">あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。</Typography>
+        <Typography variant="m">あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。</Typography>
+        <Typography variant="l">あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。</Typography>
+      </div>
     </main>
   )
 }
